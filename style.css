@@ -35,3 +35,25 @@ footer{
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
+
+.conteudo-cartao {
+    background-color: var(--cartao-frente);
+    text-align: center;
+    height: 100%;
+    color: var(--branco);
+}
+
+.conteudo-cartao h3 {
+    position: absolute;
+    text-align: left;
+    border: 1px solid var(--destaque);
+    border-radius: 6rem;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
+
+.conteudo-cartaop{
+    margin-top: 4rem;
+    padding: 2rem;
+    font-size: 1.4vw;
+}
